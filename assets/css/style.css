@@ -50,9 +50,34 @@ body{
     width: 6rem;
     border-radius: 1rem;
     cursor: pointer;
-    
+    transition: 0.1s;
+}
+
+.botonVerificar:hover{
+    transform: scale(1.2);
 }
 
 input{
     width: 11rem;
+}
+
+.desafioParteTres{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.desafioParteTres button{
+
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 6rem;
+    transition: 0.1s;
+}
+
+.desafioParteTres button:hover{
+    transform: scale(1.2);
 }
